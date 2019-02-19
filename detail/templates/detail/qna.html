@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block bodyblock %}
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="title">제목</label>
+      <input type="text" class="form-control" id="title">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="email">이메일</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="content">내용</label>
+
+    <textarea class="form-control" id="content"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+
+
+{% endblock %}
